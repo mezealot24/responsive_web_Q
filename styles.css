@@ -7,12 +7,12 @@
 }
 
 :root {
-  --base: #555;
-  --base-100: #f1f1f1;
-  --yellow: #ffda4b;
+  --base: #555555;
+  --base-100: #fffb00;
+  --yellow: #fcdc5e;
   --yellow-100: #fffbe6;
-  --blue: #0a61ae;
-  --blue-100: #e2f8ff;
+  --blue: #ff2525;
+  --blue-100: #f9ffb5;
 }
 
 h1 {
@@ -59,7 +59,7 @@ header {
     display: flex;
     align-items: center;
     font-weight: 600;
-    color: black;
+    color: rgb(173, 42, 42);
 
     .logo {
       display: flex;
@@ -129,6 +129,7 @@ header {
     }
   }
 }
+
 
 section {
   max-width: 1440px;
